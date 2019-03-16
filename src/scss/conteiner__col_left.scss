@@ -2,10 +2,9 @@ $height: 2000px;
 $background: red;
 .conteiner__col_left{
 	display: inline-block;
-	padding:0px;
-	margin:0px;
+	float:left;
 	width: 32rem;
-	margin-right: 5.65rem;
+	margin-right: 5.9rem;
 	background: $background;
 	height: $height;
 }
