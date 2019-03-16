@@ -1,0 +1,10 @@
+$height: 1500px;
+$background: blue;
+.conteiner__col_right{
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	width: 49rem;
+	background: $background;
+	height: $height;
+}

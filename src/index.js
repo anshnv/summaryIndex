@@ -1,5 +1,5 @@
 // JS - 
-//import './js/postcss.config.js'
+import './js/'
 // SCSS
 import './scss/conteiner.scss'
 // CSS 

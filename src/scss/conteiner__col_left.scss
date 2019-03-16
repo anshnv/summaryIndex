@@ -1,0 +1,11 @@
+$height: 2000px;
+$background: red;
+.conteiner__col_left{
+	display: inline-block;
+	padding:0px;
+	margin:0px;
+	width: 32rem;
+	margin-right: 5.65rem;
+	background: $background;
+	height: $height;
+}

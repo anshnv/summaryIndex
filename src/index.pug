@@ -1,11 +1,13 @@
 html(lang="ru")
 	head
 		meta(charset="utf-8")
-		title= "Макет Резюме index"
+		meta(name="viewport", content="width=device-width,initial-scale=1")
+		title= "Макет Резюме"
 		link(href='dist/app.css' type='text/css')
 	body
-	h1 Макет Резюме
-		div.conteiner
-			include pug/conteiner__left-col
-			include pug/conteiner__right-col
+	.conteiner
+		include pug/conteiner__col_left
+		include pug/conteiner__col_right
+		
+		
 		//script(type='text/javascript' src='dist/app.js')

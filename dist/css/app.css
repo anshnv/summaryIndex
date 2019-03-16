@@ -1,1 +1,1 @@
-.conteiner{background:grey}
+.conteiner{display:block;background:#dcdcdc;width:1920;margin-left:-9px;margin-top:-20px;max-width:1920px;min-width:320px;padding:0 0 0 10vw;border:0 dotted #000;height:2715px}.conteiner__col{display:block;float:left;padding:0;background:green;height:2450px;width:200px}.conteiner__col_left{width:67.4vw;margin-right:5.1vw;background:red;height:2000px;display:block;width:50vw;background:#00f;height:1900px}
