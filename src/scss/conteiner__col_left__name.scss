@@ -1,0 +1,9 @@
+$background: green;
+$width_col_left:33.33rem;
+.conteiner__col_left__name{
+	background:$background;
+	width:$width_col_left;
+	padding-top: 6.8rem;
+	
+}
+@import '../lib/circle';
