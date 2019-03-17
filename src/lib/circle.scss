@@ -1,0 +1,31 @@
+$diameter_big_no-full:360px;
+$diameter_big_full:310px;
+$diameter_small_no-full:110px;
+$diameter_small_full:100px;
+$color:#006cb4;
+
+@mixin diameter($diameter){
+	width:$diameter;
+	height:$diameter;
+}
+.circle{
+	display:block;
+	border-rudius: 50%;
+	
+}
+.circle_big_no-full{
+	border:1px solid $color;
+	@include diameter($diameter_big_no-full);
+}
+.circle_big_full{
+	border:1px solid $color;
+	@include diameter($diameter_big_full);
+}
+.circle_small_no-full{
+	border:1px solid $color;
+	@include diameter($diameter_small_no-full);
+}
+.circle_small_full{
+	border:1px solid $color;
+	@include diameter($diameter_small_full);
+}
