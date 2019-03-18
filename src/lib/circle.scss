@@ -14,10 +14,9 @@ $color:#006cb4;
 	padding-top:$paddingtop;
 }
 .circle{
-	display:flex;
+	display:block;
 	box-sizing: border-box;
 	border-radius: 50%;
-	
 }
 .circle_big_no-full{
 	border:1px solid $color;
@@ -40,6 +39,6 @@ $color:#006cb4;
 	@include diameter($diameter_small_full);
 }
 .container_circle{
-	display:flex;
+	display:block;
 	margin: 0 auto;
 }

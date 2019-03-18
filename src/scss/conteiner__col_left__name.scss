@@ -1,9 +1,59 @@
 $background: green;
 $width_col_left:33.33rem;
 .conteiner__col_left__name{
+	display:block;
 	background:$background;
 	width:$width_col_left;
 	padding-top: 6.8rem;
 	
+}
+.conteiner__col_left__name_center-name{
+	display:block;
+	width: 23.5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.conteiner__col_left__name_name{
+	padding-top:2rem;
+	font-family: MyriadPro-LightCond, Arial;
+	font-size:3.94rem;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight: 100;
+}
+.conteiner__col_left__name_center-surname{
+	display:block;
+	width: 24.8rem;
+	margin-left: auto;
+	margin-right: auto;
+	//margin-top:-10rem;
+}	
+.conteiner__col_left__name_surname{
+	
+	margin-top:-1.63rem;
+	font-family: Arial;
+	font-size:4.55rem;
+	font-stretch:normal;
+	font-style:bold;
+	font-variant:small-caps;
+	font-weight: 800;
+}
+.conteiner__col_left__name_center-designer{
+	display:block;
+	width: 20.5rem;
+	margin-left: auto;
+	margin-right: auto;
+	//margin-top:-10rem;
+}	
+.conteiner__col_left__name_center-designer{
+	
+	margin-top:-0.3rem;
+	font-family: Arial;
+	font-size:1.8rem;
+	font-stretch:normal;
+	font-style:bold;
+	font-variant:small-caps;
+	font-weight: 800;
 }
 @import '../lib/circle';
