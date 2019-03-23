@@ -10,7 +10,7 @@ $height: 2715px;
 .conteiner{
 	display: flex;
 	background: $background;
-	float: left;
+	flex-direction:row;
 	width: $width;
 	padding: $padding;
 	margin-left: $margin-left;

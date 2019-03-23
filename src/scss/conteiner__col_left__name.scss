@@ -2,6 +2,8 @@ $background: green;
 $width_col_left:33.33rem;
 .conteiner__col_left__name{
 	display:block;
+	//flex-direction:сolumn;
+	//align-items:center;
 	background:$background;
 	width:$width_col_left;
 	padding-top: 6.8rem;
@@ -27,7 +29,7 @@ $width_col_left:33.33rem;
 	width: 24.8rem;
 	margin-left: auto;
 	margin-right: auto;
-	//margin-top:-10rem;
+	
 }	
 .conteiner__col_left__name_surname{
 	
@@ -41,7 +43,7 @@ $width_col_left:33.33rem;
 }
 .conteiner__col_left__name_center-designer{
 	display:block;
-	width: 20.5rem;
+	width: 18.25rem;
 	margin-left: auto;
 	margin-right: auto;
 	

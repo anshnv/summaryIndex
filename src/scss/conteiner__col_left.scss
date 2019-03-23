@@ -1,11 +1,12 @@
 $height: 2000px;
 $background: red;
-$width_col_left:32rem;
+$width_col_left:33.35rem;
 .conteiner__col_left{
-	display: block;
-	float:left;
+	display: flex;
+	flex-direction:сolumn;
+	//justify-content:center;
 	width: $width_col_left;
-	margin-right: 5.9rem;
+	margin-right: 4.6rem;
 	background: $background;
 	height: $height;
 }

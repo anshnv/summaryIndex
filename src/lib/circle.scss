@@ -14,7 +14,7 @@ $color:#006cb4;
 	padding-top:$paddingtop;
 }
 .circle{
-	display:block;
+	//display:block;
 	box-sizing: border-box;
 	border-radius: 50%;
 }
@@ -39,6 +39,6 @@ $color:#006cb4;
 	@include diameter($diameter_small_full);
 }
 .container_circle{
-	display:block;
+	//display:block;
 	margin: 0 auto;
 }
