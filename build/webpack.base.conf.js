@@ -1,6 +1,6 @@
 const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
-//const CopyWebpackPlugin = require('copy-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 //const { VueLoaderPlugin } = require('vue-loader')
 
@@ -102,14 +102,14 @@ module.exports = {
     // Copy HtmlWebpackPlugin and change index.html for another html page
     new HtmlWebpackPlugin({
       hash: false,
-      //template: `${PATHS.src}/index.html`,
-	  //filename: './index.html',
+      template: `${PATHS.src}/index.html`,
+	  filename: './index.html',
 	  template:	`${PATHS.src}/index.pug`,
       filename: 'index.html'
     }),
-    //new CopyWebpackPlugin([
-      //{ from: `${PATHS.src}/img`, to: `${PATHS.assets}img` },
-      //{ from: `${PATHS.src}/static`, to: '' },
-    //])
+    new CopyWebpackPlugin([
+      { from: `${PATHS.src}/img`, to: `${PATHS.assets}img` },
+      { from: `${PATHS.src}/static`, to: '' },
+    ])
   ],
 }
