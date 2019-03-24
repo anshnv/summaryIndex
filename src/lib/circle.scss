@@ -1,9 +1,9 @@
 $diameter_big_no-full:18.1rem;
 $diameter_big_full:15.66rem;
-$diameter_small_no-full:5.56rem;
+$diameter_small_no-full:5.8rem;
 $diameter_small_full:5.05rem;
 $padding_big:1.26rem;
-$padding_small:0.25rem;
+$padding_small:0.2rem;
 $color:#006cb4;
 
 @mixin diameter($diameter){
@@ -13,32 +13,34 @@ $color:#006cb4;
 @mixin paddingtop($paddingtop){
 	padding-top:$paddingtop;
 }
+
 .circle{
-	//display:block;
-	box-sizing: border-box;
 	border-radius: 50%;
 }
 .circle_big_no-full{
 	border:1px solid $color;
+	box-sizing: border-box;
 	@include diameter($diameter_big_no-full);
 	@include paddingtop($padding_big);
 }
 
 .circle_big_full{
 	background-color: $color;
-	margin:0px;
 	@include diameter($diameter_big_full);
 }
 .circle_small_no-full{
 	border:1px solid $color;
+	box-sizing: border-box;
 	@include diameter($diameter_small_no-full);
-	//@include paddingtop($padding_small);
-}
+	@include paddingtop($padding_small);
+}	
 .circle_small_full{
 	background-color: $color;
+	box-sizing: border-box;
+	margin:auto;
 	@include diameter($diameter_small_full);
 }
 .container_circle{
-	//display:block;
-	margin: 0 auto;
+	margin:auto;
 }
+

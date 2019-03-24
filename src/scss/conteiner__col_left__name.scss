@@ -1,20 +1,17 @@
 $background: green;
 $width_col_left:33.33rem;
 .conteiner__col_left__name{
-	display:block;
-	//flex-direction:сolumn;
-	//align-items:center;
+	display:flex;
+	flex-direction:сolumn;
+	flex-wrap:wrap;
+	justify-content:center;
 	background:$background;
 	width:$width_col_left;
 	padding-top: 6.8rem;
+	padding-bottom: 0px;
 	
 }
-.conteiner__col_left__name_center-name{
-	display:block;
-	width: 23.5rem;
-	margin-left: auto;
-	margin-right: auto;
-}
+
 .conteiner__col_left__name_name{
 	padding-top:2.05rem;
 	font-family: MyriadPro-LightCond, Arial;
@@ -24,13 +21,7 @@ $width_col_left:33.33rem;
 	font-variant:small-caps;
 	font-weight: 100;
 }
-.conteiner__col_left__name_center-surname{
-	display:block;
-	width: 24.8rem;
-	margin-left: auto;
-	margin-right: auto;
-	
-}	
+
 .conteiner__col_left__name_surname{
 	
 	margin-top:-1.63rem;
@@ -41,14 +32,8 @@ $width_col_left:33.33rem;
 	font-variant:small-caps;
 	font-weight: 800;
 }
-.conteiner__col_left__name_center-designer{
-	display:block;
-	width: 18.25rem;
-	margin-left: auto;
-	margin-right: auto;
-	
-}	
-.conteiner__col_left__name_center-designer{
+
+.conteiner__col_left__name_designer{
 	
 	margin-top:-0.02rem;
 	font-family: Arial;

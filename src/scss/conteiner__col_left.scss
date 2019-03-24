@@ -3,7 +3,7 @@ $background: red;
 $width_col_left:33.35rem;
 .conteiner__col_left{
 	display: flex;
-	flex-direction:сolumn;
+	flex-direction:column;
 	//justify-content:center;
 	width: $width_col_left;
 	margin-right: 4.6rem;
@@ -11,3 +11,4 @@ $width_col_left:33.35rem;
 	height: $height;
 }
 @import 'conteiner__col_left__name';
+@import 'conteiner__col_left__profile';
