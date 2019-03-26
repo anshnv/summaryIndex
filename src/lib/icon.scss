@@ -1,4 +1,35 @@
-.image{
-	margin: auto;
+$profile-width:51px;
+$profile-height:46px;
+$profile-position1:0px;
+$profile-position2:-131px;
+$education-width:77px;
+$education-height:71px;
+$education-position1:0px;
+$education-position2:0px;
+$contact-width:60px;
+$contact-height:60px;
+$contact-position1:0px;
+$contact-position2:-71px;
+$experience-width:58px;
+$experience-height:56px;
+$experience-position1:-60px;
+$experience-position2:-71px;
+$skills-width:47px;
+$skills-height:68px;
+$skills-position1:-146px;
+$skills-position2:0px;
+$software-width:69px;
+$software-height:57px;
+$software-position1:-77px;
+$software-position2:0px;
+
+@mixin icon($icon-width, $icon-height, $icon-position1, $icon-position2){
+	background-position:$icon-position1 $icon-position2;
+	width:$icon-width;
+	height:$icon-height;
+}
+.image-profile{
+	background-image: url(/img/sprite.png);
+	@include icon($profile-width, $profile-height, $profile-position1, $profile-position2)
 }
 @import '../lib/circle';

@@ -2,11 +2,12 @@ $background: chocolate;
 $width_col_left:33.33rem;
 .conteiner__col_left__profile{
 	display:flex;
-	flex-direction:column;
+	//flex-direction:column;
 	align-items:flex-start;
 	background:$background;
 	width:$width_col_left;
-	padding-top: 6rem;
+	padding-top: 5.8rem;
+	padding-left: 0.1rem;
 	
 }
 @import '../lib/icon';

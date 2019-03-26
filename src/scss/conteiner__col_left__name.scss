@@ -13,20 +13,20 @@ $width_col_left:33.33rem;
 }
 
 .conteiner__col_left__name_name{
-	padding-top:2.05rem;
-	font-family: MyriadPro-LightCond, Arial;
-	font-size:3.94rem;
-	font-stretch:normal;
+	padding-top:1.9rem;
+	font-family: Myriad Pro;
+	font-size:4.1rem;
+	font-stretch:ultra-expanded;
 	font-style:normal;
 	font-variant:small-caps;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 .conteiner__col_left__name_surname{
 	
-	margin-top:-1.63rem;
-	font-family: Arial;
-	font-size:4.55rem;
+	margin-top:-1.19rem;
+	font-family: Myriad Pro;
+	font-size:4.6rem;
 	font-stretch:normal;
 	font-style:bold;
 	font-variant:small-caps;
@@ -35,12 +35,12 @@ $width_col_left:33.33rem;
 
 .conteiner__col_left__name_designer{
 	
-	margin-top:-0.02rem;
-	font-family: Arial;
-	font-size:1.8rem;
-	font-stretch:normal;
+	margin-top:0.1rem;
+	font-family: Myriad Pro;
+	font-size:2rem;
+	font-stretch:condensed;
 	font-style:bold;
-	font-variant:small-caps;
+	font-variant:normal;
 	font-weight: 700;
 }
 @import '../lib/circle';

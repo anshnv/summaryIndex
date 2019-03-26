@@ -1,6 +1,6 @@
 $diameter_big_no-full:18.1rem;
 $diameter_big_full:15.66rem;
-$diameter_small_no-full:5.8rem;
+$diameter_small_no-full:5.62rem;
 $diameter_small_full:5.05rem;
 $padding_big:1.26rem;
 $padding_small:0.2rem;
@@ -29,15 +29,22 @@ $color:#006cb4;
 	@include diameter($diameter_big_full);
 }
 .circle_small_no-full{
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	border:1px solid $color;
 	box-sizing: border-box;
 	@include diameter($diameter_small_no-full);
-	@include paddingtop($padding_small);
+	//@include paddingtop($padding_small);
 }	
 .circle_small_full{
+	display:flex;
+	flex-direction:сolumn;
+	justify-content:center;
+	align-items:center;
 	background-color: $color;
 	box-sizing: border-box;
-	margin:auto;
+	margin: auto;
 	@include diameter($diameter_small_full);
 }
 .container_circle{
