@@ -28,8 +28,12 @@ $software-position2:0px;
 	width:$icon-width;
 	height:$icon-height;
 }
-.image-profile{
-	background-image: url(/img/sprite.png);
-	@include icon($profile-width, $profile-height, $profile-position1, $profile-position2)
-}
+//.image{
+	//@include icon($education-width, $education-height, $education-position1, $education-position2)
+	//background: url(/img/sprite.png) no-repeat;
+	//float: left;
+	//width:16px;
+	//height:16px;
+	
+//}
 @import '../lib/circle';
