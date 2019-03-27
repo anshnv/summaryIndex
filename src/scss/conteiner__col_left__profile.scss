@@ -4,11 +4,35 @@ $width_col_left:33.33rem;
 	display:flex;
 	justify-content:flex-start;
 	align-items:center;
+	flex-wrap:wrap;
 	background:$background;
 	width:$width_col_left;
 	padding-top: 5.8rem;
 	padding-left: 0.1rem;
 	
+}
+.p{
+	//padding-left:0.01rem;
+	font-family: Myriad Pro;
+	font-size:1.195rem;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:small;
+	font-weight: 400;
+	//color:$color;
+}
+.p1{
+	padding-top:0.8rem;
+}
+span{
+	font-weight: 700;
+	//font-style:bold;
+	//font-stretch:ultra-condensed;
+}
+.span{
+	font-weight: 700;
+	//font-style:bold;
+	//font-stretch:ultra-condensed;
 }
 @import '../lib/icon';
 @import '../lib/title-block';
