@@ -1,0 +1,45 @@
+@import '../lib/title';
+@import '../lib/circle';
+$background: darkorange;
+$diam-skill:1.35rem;
+
+.padd{
+	padding-top: 3.6rem;
+	//padding-left: 0.1rem;
+}
+.conteiner__col_left__skills{
+	background:$background;
+}
+.line-skills{
+width:15rem;
+}
+
+.skill_text{
+	
+	margin: auto;
+	padding-top:1.7rem;
+	font-family: Myriad Pro;
+	font-size:2rem;
+	font-stretch:normal ;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight: 400;
+	//color: red;
+}
+.skill-conteiner{
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	padding-top:0.75rem;
+}
+.skill{
+	width:$diam-skill;
+	height:$diam-skill;
+	border-radius: 50%;
+	
+}
+.skill-pad{
+	padding-right:0.75rem;
+}
+.skill_blue{background-color: #006cb4;}
+.skill_gray{background-color: #E6E6E6;}

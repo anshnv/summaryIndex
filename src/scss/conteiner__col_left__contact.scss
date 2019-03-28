@@ -1,6 +1,8 @@
-$line-width_profile:5rem;
 $background: rosybrown;
-.padd{padding-top: 3.7rem;}
+.padd{
+	padding-top: 3.6rem;
+	padding-left: 0.1rem;
+}
 .conteiner__col_left__contact{
 	background:$background;
 }
@@ -12,7 +14,7 @@ width:11.5rem;
 	flex-direction:row;
 }
 .pad-ADDRESS{
-	padding-right:3.3rem;
+	padding-right:3.4rem;
 }
 .pad-MAIL{
 	padding-right:5rem;
@@ -24,13 +26,14 @@ width:11.5rem;
 	padding-right:3.8rem;
 }
 .CONTACT{
-	padding-top:2.2rem;
+	padding-top:2.25rem;
 	font-family: Myriad Pro;
-	font-size:1.7rem;
+	font-size:1.65rem;
 	font-stretch:condensed;
 	font-style:bold;
 	font-variant:normal;
 	font-weight: 700;
+	color:#006cb4;
 }
 .CONTACT_text{
 	padding-top:2.2rem;
