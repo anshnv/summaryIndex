@@ -1,4 +1,4 @@
-$height: 2000px;
+$height: 2700px;
 $background: red;
 $width_col_left:33.35rem;
 .conteiner__col_left{
@@ -11,4 +11,4 @@ $width_col_left:33.35rem;
 	height: $height;
 }
 @import 'conteiner__col_left__name';
-@import 'conteiner__col_left__profile';
+@import 'conteiner__col_left__blocks';

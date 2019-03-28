@@ -1,0 +1,44 @@
+$line-width_profile:5rem;
+$background: rosybrown;
+.padd{padding-top: 3.7rem;}
+.conteiner__col_left__contact{
+	background:$background;
+}
+.line-contact{
+width:11.5rem;
+}
+.block-CONTACT{
+	display:flex;
+	flex-direction:row;
+}
+.pad-ADDRESS{
+	padding-right:3.3rem;
+}
+.pad-MAIL{
+	padding-right:5rem;
+}
+.pad-PHONE{
+	padding-right:5rem;
+}
+.pad-WEBSITE{
+	padding-right:3.8rem;
+}
+.CONTACT{
+	padding-top:2.2rem;
+	font-family: Myriad Pro;
+	font-size:1.7rem;
+	font-stretch:condensed;
+	font-style:bold;
+	font-variant:normal;
+	font-weight: 700;
+}
+.CONTACT_text{
+	padding-top:2.2rem;
+	font-family: Myriad Pro;
+	font-size:1.7rem;
+	font-stretch:normal ;
+	//font-style:bold;
+	font-variant:normal;
+	font-weight: 100;
+}
+@import '../lib/title';

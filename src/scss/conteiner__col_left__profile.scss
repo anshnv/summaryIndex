@@ -1,16 +1,17 @@
-$background: chocolate;
-$width_col_left:33.33rem;
-.conteiner__col_left__profile{
-	display:flex;
-	justify-content:flex-start;
-	align-items:center;
-	flex-wrap:wrap;
-	background:$background;
-	width:$width_col_left;
-	padding-top: 5.8rem;
-	padding-left: 0.1rem;
+//$background: chocolate;
+//$width_col_left:33.33rem;
+//.conteiner__col_left__profile{
+	//display:flex;
+	//justify-content:flex-start;
+	//align-items:center;
+	//flex-wrap:wrap;
+	//background:$background;
+	//width:$width_col_left;
+	//padding-top: 5.8rem;
+	//padding-left: 0.1rem;
 	
-}
+//}
+.padd-prof{padding-top: 5.8rem;}
 .p{
 	//padding-left:0.01rem;
 	font-family: Myriad Pro;
@@ -34,5 +35,7 @@ span{
 	//font-style:bold;
 	//font-stretch:ultra-condensed;
 }
-@import '../lib/icon';
-@import '../lib/title-block';
+.line-profile{
+	width:13rem;
+}
+@import '../lib/title';

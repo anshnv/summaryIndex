@@ -1,16 +1,11 @@
 $color:#006cb4;
-$line-width_profile:13rem;
-@mixin line-width($line-width){
-	background-color:$color;
-	width:$line-width;
-	height:0.4rem;
-}
 
 .titleText{
 	padding-left:0.8rem;
-	padding-right:0.5rem;
+	padding-right:0.7rem;
+	margin-top:-1rem;
 	font-family: Myriad Pro;
-	font-size: 3.2rem;
+	font-size: 4.5rem;
 	font-stretch:normal;
 	font-style:normal;
 	font-variant:small-caps;
@@ -19,7 +14,5 @@ $line-width_profile:13rem;
 }
 .line{
 	background-color:$color;
-	@include line-width($line-width_profile);
-	width:$line-width_profile;
 	height:0.4rem;
 }
