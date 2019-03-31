@@ -4,6 +4,7 @@ $background: darkorange;
 .padd_education{
 	padding-top: 6rem;
 	padding-left: -0.1rem;
+	
 }
 .conteiner__col_right__education{
 	
@@ -12,4 +13,72 @@ $background: darkorange;
 .line-education{
 width:24rem;
 }
-//@import '../lib/title';
+
+
+.block-row{
+	display:flex;
+	flex-direction:row;
+	//justify-content:flex-start;
+	align-items:center;
+	//flex-wrap:wrap;
+}
+.padd_educations{
+	padding-top: 1.9rem;
+	padding-left: 0.8rem;
+}
+.block-column{
+	display:flex;
+	flex-direction:column;
+	//justify-content:flex-start;
+	//align-items:center;
+	//flex-wrap:wrap;
+}
+.marker{
+	background-color: #000000;
+	border-radius: 50%;
+	@include diameter(1.6rem);
+	
+}
+.title1-educations{
+	padding-left: 1.5rem;
+	//padding-top: -0.5rem;
+	font-family: Myriad Pro;
+	font-size:2rem;
+	font-stretch:normal;
+	font-style:bold;
+	font-variant:normal;
+	font-weight: 700;
+	color:#006cb4;
+}
+.title2-educations{
+	padding-left: 3.9rem;
+	padding-top: 0.11rem;
+	font-family: Myriad Pro;
+	font-size:2rem;
+	font-stretch:normal;
+	//font-style:bold;
+	font-variant:normal;
+	font-weight: 400;
+	//color:#006cb4;
+}
+.text-educations{
+	padding-left: 4.05rem;
+	padding-top: 0.35rem;
+	font-family: Myriad Pro;
+	font-size:1.195rem;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:small;
+	font-weight: 400;
+}
+.data{
+	padding-left: 1rem;
+	font-family: Myriad Pro;
+	font-size:2rem;
+	font-stretch:normal;
+	//font-style:bold;
+	font-variant:normal;
+	font-weight: 400;
+	//color:#006cb4;
+}
+@import '../lib/circle';
