@@ -1,7 +1,7 @@
 $color:#006cb4;
 
 .titleText{
-	padding-left:0.8rem;
+	//padding-left:0.8rem;
 	padding-right:0.7rem;
 	margin-top:-1rem;
 	font-family: Myriad Pro;
@@ -15,4 +15,10 @@ $color:#006cb4;
 .line{
 	background-color:$color;
 	height:0.4rem;
+}
+.titleText_right{
+	padding-left:1.52rem;
+}
+.titleText_left{
+	padding-left:0.8rem;
 }
