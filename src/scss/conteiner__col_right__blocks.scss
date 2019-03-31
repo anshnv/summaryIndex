@@ -2,13 +2,19 @@ $background: chocolate;
 $width__col_right:49rem;
 .conteiner__col_right__blocks{
 	display:flex;
+	flex-direction:row;
 	justify-content:flex-start;
-	align-items:center;
-	flex-wrap:wrap;
+	//align-items:center;
+	//flex-wrap:nowrap;
 	background:$background;
 	width:$width__col_right;
 	//padding-top: 5.8rem;
 	padding-left: 0.1rem;
 	
+}
+conteiner__col_right__title{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
 }
 @import 'conteiner__col_right__education';
