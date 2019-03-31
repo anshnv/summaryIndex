@@ -1,0 +1,14 @@
+$background: chocolate;
+$width__col_right:49rem;
+.conteiner__col_right__blocks{
+	display:flex;
+	justify-content:flex-start;
+	align-items:center;
+	flex-wrap:wrap;
+	background:$background;
+	width:$width__col_right;
+	//padding-top: 5.8rem;
+	padding-left: 0.1rem;
+	
+}
+@import 'conteiner__col_right__education';

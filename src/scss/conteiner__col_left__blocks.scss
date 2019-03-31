@@ -1,5 +1,6 @@
 $background: chocolate;
 $width_col_left:33.33rem;
+//$width_col_right:49rem;
 .conteiner__col_left__blocks{
 	display:flex;
 	justify-content:flex-start;
@@ -13,3 +14,4 @@ $width_col_left:33.33rem;
 }
 @import 'conteiner__col_left__profile';
 @import 'conteiner__col_left__contact';
+@import 'conteiner__col_left__skills';

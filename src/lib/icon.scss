@@ -1,4 +1,4 @@
-$profile-width:51px;
+/*$profile-width:51px;
 $profile-height:46px;
 $profile-position1:0px;
 $profile-position2:-131px;
@@ -21,7 +21,7 @@ $skills-position2:0px;
 $software-width:69px;
 $software-height:57px;
 $software-position1:-77px;
-$software-position2:0px;
+$software-position2:0px;*/
 
 @mixin icon($icon-width, $icon-height, $icon-position1, $icon-position2){
 	background-position:$icon-position1 $icon-position2;

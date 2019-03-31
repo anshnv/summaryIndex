@@ -1,8 +1,8 @@
 $height: 2700px;
 $background: yellow;
 .conteiner__col_right{
-	display: block;
-	
+	display: flex;
+	flex-direction:column;
 	width: 49rem;
 	background: $background;
 	height: $height;

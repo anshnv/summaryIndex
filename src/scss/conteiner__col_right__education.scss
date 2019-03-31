@@ -1,0 +1,16 @@
+@import '../lib/title';
+@import '../lib/circle';
+$background: darkorange;
+//$diam-skill:1.35rem;
+
+.padd{
+	padding-top: 3.6rem;
+	//padding-left: 0.1rem;
+}
+.conteiner__col_right__education{
+	
+	background:$background;
+}
+.line-education{
+width:15rem;
+}
