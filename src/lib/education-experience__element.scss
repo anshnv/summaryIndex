@@ -1,26 +1,4 @@
-$background: darkorange;
-
-
-.padd_education{
-	padding-top: 6rem;
-	//padding-left: -0.1rem;
-	padding-bottom: 1.9rem;
-	
-}
-.padd_education1{
-	padding-top: 1.9rem;
-	padding-left: 0.8rem;
-}
-.conteiner__col_right__education{
-	
-	background:$background;
-}
-.line-education{
-width:24rem;
-}
-
-
-/*.block-row{
+.block-row{
 	display:flex;
 	flex-direction:row;
 	//justify-content:flex-start;
@@ -28,9 +6,10 @@ width:24rem;
 	//flex-wrap:wrap;
 }
 .padd_educations{
-	padding-top: 1.9rem;
+	padding-top: 0.9rem;
 	padding-left: 0.8rem;
 }
+
 .block-column{
 	display:flex;
 	flex-direction:column;
@@ -45,7 +24,7 @@ width:24rem;
 	
 }
 .title1-educations{
-	padding-left: 1.5rem;
+	padding-left: 1.6rem;
 	//padding-top: -0.5rem;
 	font-family: Myriad Pro;
 	font-size:2rem;
@@ -57,7 +36,7 @@ width:24rem;
 }
 .title2-educations{
 	padding-left: 3.9rem;
-	padding-top: 0.11rem;
+	padding-top: 0.2rem;
 	font-family: Myriad Pro;
 	font-size:2rem;
 	font-stretch:normal;
@@ -85,6 +64,4 @@ width:24rem;
 	font-variant:normal;
 	font-weight: 400;
 	//color:#006cb4;
-}*/
-@import '../lib/circle';
-@import '../lib/education-experience__element';
+}
