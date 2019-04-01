@@ -1,4 +1,4 @@
-$background: chocolate;
+$background: red;
 $width__col_right:49rem;
 .conteiner__col_right__blocks{
 	display:flex;
@@ -14,3 +14,4 @@ $width__col_right:49rem;
 }
 
 @import 'conteiner__col_right__education';
+@import 'conteiner__col_right__experience';
