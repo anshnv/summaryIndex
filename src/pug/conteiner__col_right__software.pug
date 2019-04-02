@@ -1,0 +1,18 @@
+include ../lib/title
+mixin software__element(text)
+	.software-column
+		.software-text.software-text-pad= text
+		.software-indicator
+		
+.conteiner__col_right__blocks.conteiner__col_right__software.padd_software
+	+title-block_right('icon_software1920', 'software')
+	.line.line-software
+	.conteiner__col_right__blocks
+		.software-column
+			+software__element('PHOTOSHOP')
+			+software__element('ILLUSTRATOR')
+			+software__element('INDESIGN')
+		.software-column.software-pad_left
+			+software__element('DREAMWEAVER')
+			+software__element('AFTER EFFECTS')
+			+software__element('HTML&CSS3')

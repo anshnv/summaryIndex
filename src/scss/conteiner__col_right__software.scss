@@ -1,0 +1,52 @@
+$background: blue;
+$background-red:red;
+
+.padd_software{
+	padding-top: 2.2rem;
+	//padding-left: -0.1rem;
+	padding-bottom: 2.2rem;
+	
+}
+/*.padd_software1{
+	//padding-top: 3.2rem;
+	padding-left: 0.8rem;
+}*/
+.conteiner__col_right__software{
+	
+	background:$background;
+}
+.line-software{
+width:23.6rem;
+}
+.software-column{
+	display:flex;
+	flex-direction:column;
+	justify-content:flex-start;
+	//align-items:center;
+	flex-wrap:wrap;
+	background:$background-red;
+	padding-left:0.15rem;
+}
+.software-pad_left{padding-left:5.4rem;}
+.software-indicator{
+	width: 21.4rem;
+	height: 1.7rem;
+	background:#E6E6E6;
+	//margin-bottom:1.8rem;
+}
+.software-indicator_blue{
+	width: 20rem;
+	//height: 1.7rem;
+	background:#006cb4;
+}
+.software-text-pad{padding-top:1.8rem;}
+.software-text{
+	padding-bottom:0.8rem;
+	//padding-top:1.7rem;
+	font-family: Myriad Pro;
+	font-size:2rem;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:small-caps;
+	font-weight: 400;
+}
