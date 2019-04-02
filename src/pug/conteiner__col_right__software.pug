@@ -3,6 +3,24 @@ mixin software__element(text)
 	.software-column
 		.software-text.software-text-pad= text
 		.software-indicator
+			-if (text=='PHOTOSHOP'){
+			.software-indicator_blue.indicator_PHOTOSHOP
+			-}
+			-if (text=='ILLUSTRATOR'){
+			.software-indicator_blue.indicator_ILLUSTRATOR
+			-}
+			-if (text=='INDESIGN'){
+			.software-indicator_blue.indicator_INDESIGN
+			-}
+			-if (text=='DREAMWEAVER'){
+			.software-indicator_blue.indicator_DREAMWEAVER
+			-}
+			-if (text=='AFTER EFFECTS'){
+			.software-indicator_blue.indicator_AFTER-EFFECTS
+			-}
+			-if (text=='HTML&CSS3'){
+			.software-indicator_blue.indicator_HTML-CSS3
+			-}
 		
 .conteiner__col_right__blocks.conteiner__col_right__software.padd_software
 	+title-block_right('icon_software1920', 'software')
