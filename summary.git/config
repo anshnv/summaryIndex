@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	symlinks = false
+	ignorecase = true
+	sharedrepository = 1
+[remote "origin"]
+	url = C:/Users/ГостевойСеанс/Projects/summary/summary
+[receive]
+	denyNonFastforwards = true
