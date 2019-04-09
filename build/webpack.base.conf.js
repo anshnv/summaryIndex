@@ -9,7 +9,7 @@ const PATHS = {
   dist: path.join(__dirname, '../dist'),
   //assets: './'
   //попробовать assets:''
-  assets:''
+  assets:'.'
 }
 
 
