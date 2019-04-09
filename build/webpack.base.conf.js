@@ -47,7 +47,8 @@ module.exports = {
       test: /\.(png|jpg|gif|svg|woff|woff2|eot|ttf)$/,
       loader: 'file-loader',
       options: {
-        name: '[path][name].[ext]'
+		publicPath: 'assets',
+        name: '[name].[ext]'
       }
     }, {
       test: /\.scss$/,
